@@ -43,7 +43,7 @@ h1{
 }
 
 h2{
-    font-size: 28pt;
+    font-size: 30pt;
     font-weight: 700;
     margin-bottom: 35px;
 }
@@ -154,13 +154,13 @@ header li a{
 
 .plan-type, .plan-type-large{
     float: left;
-    height: 200px;
     background-color: lightcoral;
-    border: 1px solid blue;
+    border: 2px solid blue;
 }
 
 .plan-type{
     width: calc(100% / 3 - 26.7px);
+    min-height: 900px;
 }
 #ptcenter{
     margin: 0 40px;
@@ -169,4 +169,18 @@ header li a{
 .plan-type-large{
     width: 100%;
     margin-top: 40px;
+    min-height: 250px;
+}
+
+.plan-type .headbox, .plan-type-large .headbox{
+    width: 100%;
+    background-color: lightgreen;
+    border-bottom: 2px solid blue;
+    text-align: center;
+    line-height: 35px;
+    color: #333;
+}
+
+.plan-type h5, .plan-type-large h5{
+    display: inline;
 }
