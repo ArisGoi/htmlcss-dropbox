@@ -31,7 +31,7 @@ a{
     max-width: 1000px;
 }
 
-/* Typography */
+/* Common Typography */
 header{
     font-size: 11pt;
     font-weight: 600;
@@ -47,6 +47,13 @@ h1{
     background-color: #0061ff;
     padding: 8px 20px;
     color: white;
+    display: inline-block;
+}
+.nobtn{
+    display: block;
+    color: black;
+    font-size: 11pt;
+    font-weight: 600;
 }
 
 /* Header */
@@ -85,22 +92,37 @@ header li a{
 /* Hero section*/
 .hero{
     background-color: #b4d0e7;
-    height: 900px;
     width: 100%;
     padding-top: 150px;
 }
-.hero h1{
-    margin-bottom: 70px;
-}
-.hero-text{
-    background-color: red;
-    width: 30%;
-    min-height: 100px;
-    float: left;
-}
+
 .hero img{
     width: 60%;
     min-height: 100px;
     float: right;
-    transform: translateY(70px);
+    transform: translateY(80px);
+}
+
+.hero-text{
+    max-width: 27%;
+    min-height: 100px;
+    float: left;
+    transform: translateY(80px);
+}
+
+.hero-text i{
+    font-size: 40px;
+    display: block;
+}
+.hero-text p{
+    font-size: 11pt;
+    font-weight: 600;
+    display: block;
+}
+
+.hero .btn, .hero i{
+    margin-top: 35px;
+}
+.hero .nobtn{
+    margin-top: 8px;
 }
