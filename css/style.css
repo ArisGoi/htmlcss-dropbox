@@ -6,6 +6,9 @@
 } 
 
 /* Common */
+a{
+    text-decoration: none;
+}
 .clearfix::after {
     content: '';
     display: table;
@@ -32,6 +35,18 @@
 header{
     font-size: 11pt;
     font-weight: 600;
+}
+
+h1{
+    font-size: 60pt;
+    font-weight: 700;
+}
+
+/* buttons */
+.btn{
+    background-color: #0061ff;
+    padding: 8px 20px;
+    color: white;
 }
 
 /* Header */
@@ -61,9 +76,31 @@ header li{
 }
 header li a{
     padding: 12px;
-    text-decoration: none;
     color: black;
 }
 .top-nav-left img{
     vertical-align: middle;
+}
+
+/* Hero section*/
+.hero{
+    background-color: #b4d0e7;
+    height: 900px;
+    width: 100%;
+    padding-top: 150px;
+}
+.hero h1{
+    margin-bottom: 70px;
+}
+.hero-text{
+    background-color: red;
+    width: 30%;
+    min-height: 100px;
+    float: left;
+}
+.hero img{
+    width: 60%;
+    min-height: 100px;
+    float: right;
+    transform: translateY(70px);
 }
