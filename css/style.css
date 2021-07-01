@@ -42,6 +42,17 @@ h1{
     font-weight: 700;
 }
 
+h2{
+    font-size: 28pt;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.plan-radio label{
+    font-size: 11pt;
+    font-weight: 600;
+}
+
 /* buttons */
 .btn{
     background-color: #0061ff;
@@ -125,4 +136,37 @@ header li a{
 }
 .hero .nobtn{
     margin-top: 8px;
+}
+
+/* Find your plan */
+#FindPlanSec{
+    background-color: pink;
+    padding-top: 150px;
+    height: 300vh;
+}
+
+.plan-radio label{
+    margin-right: 20px;
+}
+.plan-radio{
+    margin-bottom: 25px;
+}
+
+.plan-type, .plan-type-large{
+    float: left;
+    height: 200px;
+    background-color: lightcoral;
+    border: 1px solid blue;
+}
+
+.plan-type{
+    width: calc(100% / 3 - 26.7px);
+}
+#ptcenter{
+    margin: 0 40px;
+}
+
+.plan-type-large{
+    width: 100%;
+    margin-top: 40px;
 }
