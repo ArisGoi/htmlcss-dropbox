@@ -140,7 +140,6 @@ header li a{
 
 /* Find your plan */
 #FindPlanSec{
-    background-color: pink;
     padding-top: 150px;
     height: 300vh;
 }
@@ -154,13 +153,12 @@ header li a{
 
 .plan-type, .plan-type-large{
     float: left;
-    background-color: lightcoral;
-    border: 2px solid blue;
+    border: 1px solid #888;
 }
 
 .plan-type{
     width: calc(100% / 3 - 26.7px);
-    min-height: 900px;
+    min-height: 1000px;
 }
 #ptcenter{
     margin: 0 40px;
@@ -174,8 +172,7 @@ header li a{
 
 .plan-type .headbox, .plan-type-large .headbox{
     width: 100%;
-    background-color: lightgreen;
-    border-bottom: 2px solid blue;
+    border-bottom: 1px solid #888;
     text-align: center;
     line-height: 35px;
     color: #333;
@@ -183,4 +180,53 @@ header li a{
 
 .plan-type h5, .plan-type-large h5{
     display: inline;
+}
+
+.plan-type h3, .plan-type h4{
+    margin-bottom: 20px;
+}
+
+.plan-type h6{
+    font-size: 15pt;
+    margin-bottom: 8px;
+}
+.plan-type h3{
+    font-size: 20pt;
+    margin-bottom: 8px;
+}
+
+.plan-type li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.plan-type ul i{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.bodybox{
+    padding: 30px 20px 0px 20px;
+}
+.bodybox p{
+    margin-bottom: 30px;
+}
+
+.link-under-btn{
+    margin-top: 25px;
+    /* border-bottom: 2px solid black; */
+    padding-bottom: 30px;
+    position: relative;
+}
+.link-under-btn a{
+    color: blue;
+    text-decoration: underline;
+}
+.link-under-btn:after{
+    content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 5px;
+        width: 22%;
+        border-top: 2px solid #000;
 }
