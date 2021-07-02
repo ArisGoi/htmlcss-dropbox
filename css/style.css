@@ -247,6 +247,10 @@ header li a{
         width: 22%;
         border-top: 2px solid #000;
 }
+.plan-type a.btn{
+    width: 100%;
+    text-align: center;
+}
 
 /* Plan Type Large */
 .plan-type-large .bodybox{
