@@ -242,7 +242,7 @@ header li a{
     color: #0061ff;
     margin-right: 10px;
 }
-.plan-type ul i{
+.bodybox ul i{
     list-style-type: none;
     display: inline-block;
 }
@@ -263,11 +263,11 @@ header li a{
 }
 .bodybox .link-under-btn:after{
     content: '';
-        position: absolute;
-        left: 0;
-        bottom: 0;,,
-        width: 22%;
-        border-top: 2px solid #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 22%;
+    border-top: 2px solid #000;
 }
 .plan-type a.btn{
     width: 100%;
@@ -434,4 +434,10 @@ header li a{
 
 #questions .container_S > div:first-of-type{
     border-top: 1px solid #888;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    height: 500px;
 }
