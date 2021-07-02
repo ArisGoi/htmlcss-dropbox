@@ -83,6 +83,9 @@ span.underline{
     color: white;
     display: inline-block;
 }
+.btn.btn-pad50{
+    padding: 8px 50px;
+}
 .nobtn{
     display: block;
     color: black;
@@ -93,6 +96,10 @@ span.underline{
     color: #333;
     background-color: white;
     border: 2px solid #333;
+}
+.btn.btn-white{
+    color: #000;
+    background-color: white;
 }
 
 /* Header */
@@ -258,7 +265,7 @@ header li a{
     content: '';
         position: absolute;
         left: 0;
-        bottom: 0;
+        bottom: 0;,,
         width: 22%;
         border-top: 2px solid #000;
 }
@@ -384,4 +391,23 @@ header li a{
 }
 #tms-ClearChannel{
     background-color: #ffd830;
+}
+
+/* ----- */
+#db-ftry{
+    background-color: #b4d0e7;
+    padding: 100px 0;
+}
+
+#db-ftry .container_S div{
+    width: 50%;
+    float: left;
+}
+#db-ftry .container_S div:last-child{
+    text-align: right;
+}
+
+#db-ftry h2{
+    color: #61082b;
+    margin: 0;
 }
