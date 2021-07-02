@@ -307,3 +307,59 @@ header li a{
 .bs-f-box img{
     width: 100%;
 }
+
+/* Team Show */
+#team-show{
+    background-color: chartreuse;
+}
+
+.tms-sq-b{
+    width: 30vw;
+    float: left;
+}
+
+.tms-sq-b div{
+    width: 15vw;
+    height: 15vw;
+    float: left;
+}
+
+.tms-sq-b div img{
+    width: 50%;
+    margin: 50% 0px 0px 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tms-sq-c{
+    width: calc(40vw - 17px);
+    height: 30vw;
+    float: left;
+
+    background-color: pink;
+}
+
+#tms-DESIGNit{
+    background-color: #a2d39b;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+#tms-ASU{
+    background-color: #61082b;
+}
+#tms-UF{
+    background-color: #0093ce;
+}
+#tms-TOPPS{
+    background-color: #ff1c1c;
+}
+#tms-WBR{
+    background-color: #d5001f;
+}
+#tms-HEARST{
+    background-color: #b4d0e7;
+}
+#tms-LonelyPlanet{
+    background-color: #0d2481;
+}
+#tms-ClearChannel{
+    background-color: #ffd830;
+}
