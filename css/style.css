@@ -241,9 +241,15 @@ header li a{
     display: inline-block;
     color: #0061ff;
     margin-right: 10px;
+    margin-top: 4px;
+    vertical-align: top;
 }
 .bodybox ul i{
     list-style-type: none;
+    display: inline-block;
+}
+.bodybox li span{
+    width: 85%;
     display: inline-block;
 }
 
