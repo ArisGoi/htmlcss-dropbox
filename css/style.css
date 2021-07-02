@@ -9,10 +9,15 @@
 a{
     text-decoration: none;
 }
+
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
+}
+
+section{
+    padding-top: 100px;
 }
 
 /* Common Containers */
@@ -79,6 +84,11 @@ h4{
     color: black;
     font-size: 11pt;
     font-weight: 600;
+}
+.btn.btn-empty{
+    color: #333;
+    background-color: white;
+    border: 2px solid #333;
 }
 
 /* Header */
@@ -155,7 +165,6 @@ header li a{
 /* Find your plan */
 #FindPlanSec{
     padding-top: 150px;
-    height: 300vh;
 }
 
 .plan-radio label{
@@ -263,4 +272,21 @@ header li a{
 }
 .plan-type-large p{
     margin: 50px 0 0 0;
+}
+
+
+/* Partner Section */
+#partner img{
+    width: 50%;
+    float: left;
+}
+
+#partner .container_S div{
+    width: 50%;
+    float: left;
+    padding: 40px 0px 0px 40px;
+}
+
+#partner h3, #partner p{
+    margin-bottom: 25px;
 }
