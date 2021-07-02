@@ -60,11 +60,15 @@ h2{
 
 h3{
     font-size: 20pt;
-    margin-bottom: 8px;
+    margin-bottom: 25px;
 }
 
 h4{
     margin-bottom: 20px;
+}
+
+span.underline{
+    text-decoration: underline;
 }
 
 .plan-radio label{
@@ -213,7 +217,9 @@ header li a{
 .bodybox .pt-fea{
     margin: 45px 0;
 }
-
+.bodybox h3{
+    margin-bottom: 8px;
+}
 .bodybox p, .bodybox li{
     margin-bottom: 20px;
 }
@@ -287,6 +293,17 @@ header li a{
     padding: 40px 0px 0px 40px;
 }
 
-#partner h3, #partner p{
+#partner p{
     margin-bottom: 25px;
+}
+
+/* Business feature */
+.bs-f-box{
+    width: calc(100% / 3 - 26.7px);
+    float: left;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.bs-f-box img{
+    width: 100%;
 }
