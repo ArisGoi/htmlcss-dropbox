@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -440,6 +444,13 @@ header li a{
 
 #questions .container_S > div:first-of-type{
     border-top: 1px solid #888;
+}
+p.answer{
+    margin-top: 20px;
+    display: none;
+}
+#questions .container_S > div:hover > p.answer{
+    display: block;
 }
 
 /* Footer */
