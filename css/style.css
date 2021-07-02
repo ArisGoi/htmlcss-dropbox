@@ -393,10 +393,10 @@ header li a{
     background-color: #ffd830;
 }
 
-/* ----- */
+/* Prova Dropbox Business */
 #db-ftry{
     background-color: #b4d0e7;
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
 
 #db-ftry .container_S div{
@@ -410,4 +410,28 @@ header li a{
 #db-ftry h2{
     color: #61082b;
     margin: 0;
+}
+
+/*Questions Section*/
+#questions{
+    padding-bottom: 100px;
+}
+#questions h4{
+    margin: 0;
+    display: inline-block;
+}
+#questions .fa-angle-down{
+    font-size: 20pt;
+    float: right;
+    margin-right: 30px;
+    color: #888;
+}
+
+#questions .container_S > div{
+    border-bottom: 1px solid #888;
+    padding: 30px 0px;
+}
+
+#questions .container_S > div:first-of-type{
+    border-top: 1px solid #888;
 }
