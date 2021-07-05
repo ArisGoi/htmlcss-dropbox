@@ -385,7 +385,6 @@ header li a{
 
 #tms-DESIGNit{
     background-color: #a2d39b;
-    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 #tms-ASU{
     background-color: #61082b;
@@ -408,6 +407,11 @@ header li a{
 #tms-ClearChannel{
     background-color: #ffd830;
 }
+
+div:hover[id^=tms-]{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
 
 /* Prova Dropbox Business */
 #db-ftry{
