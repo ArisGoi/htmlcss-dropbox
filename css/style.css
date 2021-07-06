@@ -446,6 +446,8 @@ div:hover[id^=tms-]{
     float: right;
     margin-right: 30px;
     color: #888;
+    transform: rotate(360deg);
+    transition: 0.3s;
 }
 
 
@@ -464,6 +466,10 @@ p.answer{
 }
 #questions .container_S > ul > li:hover > p.answer{
     display: block;
+}
+#questions .container_S > ul > li:hover > i{
+    transform: rotate(180deg);
+    transition: 0.3s;
 }
 
 /* Footer */
