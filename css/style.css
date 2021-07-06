@@ -24,6 +24,10 @@ section{
     padding-top: 100px;
 }
 
+.c-margin{
+    margin: 0 40px;
+}
+
 /* Common Containers */
 .container_L, .container_M, .container_S{
     margin: 0 auto;
@@ -40,10 +44,6 @@ section{
     max-width: 1000px;
 }
 
-/* Common Margins */
-.c-margin{
-    margin: 0 40px;
-}
 
 /* Common Typography */
 header{
@@ -81,19 +81,11 @@ span.underline{
 }
 
 /* buttons */
-.btn:hover{
-    transform: scale(1.05);
-    box-shadow: 10px 10px 25px -12px rgba(0,0,0,0.4);
-    transition: 0.3s;
-}
 .btn{
     background-color: #0061ff;
     padding: 8px 20px;
     color: white;
     display: inline-block;
-}
-.btn.btn-pad50{
-    padding: 8px 50px;
 }
 .nobtn{
     display: block;
@@ -109,6 +101,15 @@ span.underline{
 .btn.btn-white{
     color: #000;
     background-color: white;
+}
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 25px -12px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.btn.btn-pad50{
+    padding: 8px 50px;
 }
 
 /* Header */
